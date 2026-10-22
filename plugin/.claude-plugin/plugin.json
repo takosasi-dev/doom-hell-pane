@@ -1,0 +1,28 @@
+{
+  "name": "hell-pane",
+  "version": "0.1.0",
+  "description": "/doom で DOOM をペインで遊ぶ。本物のエンジン (doomgeneric) を別プロセスで動かし、入力欄に WASD で操作",
+  "author": { "name": "takosasi-dev" },
+  "license": "GPL-2.0-only",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "enginePath": {
+      "type": "string",
+      "title": "Engine path",
+      "description": "hellpane-engine.exe の絶対パス。空ならプラグインの bin、無ければデータフォルダ (ホームの .hellpane) の hellpane-engine.exe",
+      "default": ""
+    },
+    "wadPath": {
+      "type": "string",
+      "title": "WAD path",
+      "description": "遊ぶ WAD (freedoom1.wad や手持ちの doom1.wad) の絶対パス。空ならプラグインの wad、無ければデータフォルダの freedoom1.wad",
+      "default": ""
+    },
+    "dataDir": {
+      "type": "string",
+      "title": "Data folder",
+      "description": "設定とセーブを置くフォルダ。空ならホームの .hellpane",
+      "default": ""
+    }
+  }
+}

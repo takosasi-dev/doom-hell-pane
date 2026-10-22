@@ -1,0 +1,15 @@
+# エンジンが mod を読み込むたびに書く型
+plugin/.claude-plugin/types/
+# ビルドした exe と WAD は Releases と各自の手元に置く
+plugin/bin/
+plugin/wad/
+*.exe
+*.wad
+*.WAD
+# エンジンが作業フォルダに書く設定とセーブ
+*.cfg
+.savegame/
+keys.txt
+node_modules/
+.DS_Store
+*.log

@@ -1,0 +1,8 @@
+{
+  "name": "doom-hell-pane",
+  "owner": { "name": "takosasi-dev" },
+  "description": "DOOM（HellPane）: Claude Code のペインで本物の DOOM を遊ぶ mod",
+  "plugins": [
+    { "name": "hell-pane", "source": "./plugin", "description": "/doom で DOOM をペインで遊ぶ。入力欄に WASD で操作" }
+  ]
+}
